@@ -3,8 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* grid */
 
-.container {
+.container  {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: .5em;
+}
+
+.chart {
+    
+}
+
+/* .container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -12,7 +23,7 @@
 .chart {
     flex-grow:1;
     flex-basis: auto;
-}
+} */
 
 .chart1 {
     background: red;
